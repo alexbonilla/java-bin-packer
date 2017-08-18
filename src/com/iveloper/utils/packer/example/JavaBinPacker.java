@@ -42,11 +42,11 @@ public class JavaBinPacker {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 1200x900 each
+        Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 600X800 each
         ArrayList<Node> blocks = new ArrayList();
 
         blocks.add(new Node("Figure1", 300, 400));
-        blocks.add(new Node("Figure2", 300, 400));
+        blocks.add(new Node("Figure2", 600, 400));
         blocks.add(new Node("Figure3", 300, 400));
         blocks.add(new Node("Figure4", 300, 400));
         blocks.add(new Node("Figure5", 300, 400));
