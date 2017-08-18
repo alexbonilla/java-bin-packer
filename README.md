@@ -5,15 +5,15 @@ I translated the forementioned code to Java, since I saw it as a simple way to b
 
 The code preserves the funcionality of the original javascript code, except that I added the option to handle more than 1 packet.
 
-#Demo
+<h2>Demo</h2>
 Clone the code 
 <code>https://alexbonilla@github.com/alexbonilla/java-bin-packer.git</code>
 com/iveloper/utils/packer/example/JavaBinPacker.java contains a running example you can play with.
 
-#Usage
-If you want to use it inside your project, you need to do something like this:
+<h2>Usage</h2>
+<p>If you want to use it inside your project, you need to do something like this:</p>
 <code>
-Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 1200x900 each
+        Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 1200x900 each
         ArrayList<Node> blocks = new ArrayList();
 
         blocks.add(new Node("Figure1", 300, 400));
@@ -55,5 +55,5 @@ Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 1200x900
 
 See source code comments for more details.
 
-#Contact
+<h2>Contact</h2>
 If you have any ideas, feedback, requests or bug reports, you can reach me at <a href="mailto:alex@iveloper.com">alex@iveloper.com</a>, or via my website: <a href="http://iveloper.com/">iveloper.com</a>
