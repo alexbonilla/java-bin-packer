@@ -56,5 +56,8 @@ com/iveloper/utils/packer/example/JavaBinPacker.java contains a running example 
 
 See source code comments for more details.
 
+<h2>License</h2>
+See <a href="https://github.com/alexbonilla/java-bin-packer/blob/master/LICENSE">LICENSE</a> file.
+
 <h2>Contact</h2>
 If you have any ideas, feedback, requests or bug reports, you can reach me at <a href="mailto:alex@iveloper.com">alex@iveloper.com</a>, or via my website: <a href="http://iveloper.com/">iveloper.com</a>
