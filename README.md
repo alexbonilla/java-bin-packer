@@ -1,5 +1,5 @@
 # java-bin-packer
-Java Version of a bin-packer at https://github.com/jakesgordon/bin-packing/
+Java Version of a bin-packer at https://github.com/jakesgordon/bin-packing/. jakesgordon made an awesome job explaining his code at http://codeincomplete.com/posts/2011/5/7/bin_packing/
 
 I translated the forementioned code to Java, since I saw it as a simple way to balance virtual machines in different hosts. But that is a complete different story.
 
@@ -13,6 +13,7 @@ com/iveloper/utils/packer/example/JavaBinPacker.java contains a running example 
 <h2>Usage</h2>
 <p>If you want to use it inside your project, you need to do something like this:</p>
 <code>
+        
         Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 1200x900 each
         ArrayList<Node> blocks = new ArrayList();
 
