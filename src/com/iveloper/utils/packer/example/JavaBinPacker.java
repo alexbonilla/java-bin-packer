@@ -46,7 +46,7 @@ public class JavaBinPacker {
         ArrayList<Node> blocks = new ArrayList();
 
         blocks.add(new Node("Figure1", 300, 400));
-        blocks.add(new Node("Figure2", 600, 400));
+        blocks.add(new Node("Figure2", 300, 400));
         blocks.add(new Node("Figure3", 300, 400));
         blocks.add(new Node("Figure4", 300, 400));
         blocks.add(new Node("Figure5", 300, 400));

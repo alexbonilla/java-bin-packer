@@ -14,7 +14,7 @@ com/iveloper/utils/packer/example/JavaBinPacker.java contains a running example 
 <p>If you want to use it inside your project, you need to do something like this:</p>
 <code>
         
-        Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 1200x900 each
+        Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 600x800 each
         ArrayList<Node> blocks = new ArrayList();
 
         blocks.add(new Node("Figure1", 300, 400));
