@@ -54,6 +54,23 @@ com/iveloper/utils/packer/example/JavaBinPacker.java contains a running example 
         System.out.println("");
 </code>
 
+The example above will produce this output:
+
+<code>
+                        Pack Starts Here
+                    Display name                       x               y               w               h
+                         Figure1                     0.0             0.0           300.0           400.0
+                         Figure2                   300.0             0.0           300.0           400.0
+                         Figure3                     0.0           400.0           300.0           400.0
+                         Figure4                   300.0           400.0           300.0           400.0
+                Pack Starts Here
+                    Display name                       x               y               w               h
+                         Figure5                     0.0             0.0           300.0           400.0
+                         Figure6                   300.0             0.0           300.0           400.0
+                         Figure7                     0.0           400.0           300.0           400.0
+                         Figure8                   300.0           400.0           300.0           400.0
+</code>                        
+
 See source code comments for more details.
 
 <h2>License</h2>
