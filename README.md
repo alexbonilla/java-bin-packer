@@ -3,7 +3,7 @@ Java Version of a bin-packer at https://github.com/jakesgordon/bin-packing/. jak
 
 I translated the forementioned code to Java, since I saw it as a simple way to balance virtual machines in different hosts. But that is a complete different story.
 
-The code preserves the funcionality of the original javascript code, except that I added the option to handle more than 1 packet.
+The code preserves the functionality of the original javascript code, except that I added the option to handle more than 1 packet.
 
 <h2>Demo</h2>
 Clone the code 
@@ -58,6 +58,3 @@ See source code comments for more details.
 
 <h2>License</h2>
 See <a href="https://github.com/alexbonilla/java-bin-packer/blob/master/LICENSE">LICENSE</a> file.
-
-<h2>Contact</h2>
-If you have any ideas, feedback, requests or bug reports, you can reach me at <a href="mailto:alex@iveloper.com">alex@iveloper.com</a>, or via my website: <a href="http://iveloper.com/">iveloper.com</a>
