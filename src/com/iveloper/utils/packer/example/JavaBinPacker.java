@@ -54,6 +54,7 @@ public class JavaBinPacker {
         blocks.add(new Node("Figure7", 300, 400));
         blocks.add(new Node("Figure8", 300, 400));
         blocks.add(new Node("Figure9", 300, 400));
+        blocks.add(new Node("Figure10", 300, 400));
 
         Collections.sort(blocks, new Comparator<Node>() {
             @Override
