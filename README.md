@@ -7,7 +7,7 @@ The code preserves the functionality of the original javascript code, except tha
 
 <h2>Demo</h2>
 Clone the code 
-<code>https://alexbonilla@github.com/alexbonilla/java-bin-packer.git</code>
+<code>git@github.com:alexbonilla/java-bin-packer.git</code>
 com/iveloper/utils/packer/example/JavaBinPacker.java contains a running example you can play with.
 
 <h2>Usage</h2>
