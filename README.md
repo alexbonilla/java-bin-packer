@@ -3,7 +3,7 @@ Java Version of a bin-packer at https://github.com/jakesgordon/bin-packing/. jak
 
 I translated the forementioned code to Java, since I saw it as a simple way to balance virtual machines in different hosts. But that is a complete different story.
 
-The code preserves the functionality of the original javascript code, except that I added the option to handle more than 1 packet.
+The code preserves the functionality of the original javascript code, except that I added the option to handle more than 1 bin.
 
 <h2>Demo</h2>
 Clone the code 
@@ -14,7 +14,7 @@ com/iveloper/utils/packer/example/JavaBinPacker.java contains a running example 
 <p>If you want to use it inside your project, you need to do something like this:</p>
 <code>
         
-        Packer packer = new Packer(2, 600, 800);// 2 available packets to fill, 600x800 each
+        Packer packer = new Packer(2, 600, 800);// 2 available bins to fill, 600x800 each
         ArrayList<Node> blocks = new ArrayList();
 
         blocks.add(new Node("Figure1", 300, 400));
@@ -71,7 +71,7 @@ The example above will produce this output:
         Figure8                   300.0           400.0           300.0           400.0
 </code>   
 
-In the example, Figure9 does not fit in either the two of the bins, since both are full.                     
+In the example, Figure9 does not fit in either the two of the bins, since both are already full.                     
 
 See source code comments for more details.
 
