@@ -57,7 +57,7 @@ com/iveloper/utils/packer/example/JavaBinPacker.java contains a running example 
 The example above will produce this output:
 
 
-|Pack Starts Here|
+1st Pack Starts Here
 |Display name |                     x   |           y    |          w    |          h |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
 |Figure1      |              0.0        |    0.0         | 300.0         | 400.0|
@@ -65,7 +65,7 @@ The example above will produce this output:
 |Figure3      |              0.0        |  400.0         | 300.0         | 400.0|
 |Figure4      |            300.0        |  400.0         | 300.0         | 400.0|
 
-|Pack Starts Here|
+2nd Pack Starts Here
 |Display name |                     x    |          y    |         w     |         h |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
 |Figure5      |              0.0         |   0.0         | 300.0         | 400.0|
